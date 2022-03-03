@@ -1,0 +1,62 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+header > h3 {
+  font-size: xx-large;
+  font-weight: 400;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: x-large;
+}
+ul li:hover {
+  cursor: pointer;
+  color: red;
+}
+nav {
+  width: 40vw;
+  margin-top: 1rem;
+  /* margin: 0.5rem; */
+}
+.centralImage {
+  margin-top: -1rem;
+  width: 95vw;
+  margin-left: 0.5rem;
+  padding: 1rem;
+}
+.container {
+  display: flex;
+  margin: 2rem;
+  /* align-items: center;
+  text-align: center; */
+  /* justify-content: space-evenly; */
+}
+.container > div > h3 {
+  font-size: x-large;
+  font-weight: 400;
+}
+.container > div {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+.container > div > p {
+  font-size: x-large;
+  font-weight: 400;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  margin: 0.1rem;
+  padding: 0.1rem;
+  color: white;
+  font-size: x-large;
+  font-weight: 200;
+}
