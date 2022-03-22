@@ -3,8 +3,10 @@
 let fs = require("fs");
 let path = require("path");
 
-let movePath = fs.path(__dirname);
+let destPath = path.join(__dirname, "newFolder", "file1.txt");
 
-let srcPath = fs.path(__dirname,"newFolder","newFile.txt");
+let srcPath = path.join(__dirname, "file1.txt");
 
-fs.copyFileSync
+fs.copyFileSync(srcPath, destPath);
+
+fs.unlinkSync(srcPath);
